@@ -1,0 +1,26 @@
+{
+  "name": "minimal-treasury",
+  "version": "0.1.0",
+  "description": "A contract to act as treasury for the NEC DAO",
+  "main": "npm run test",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "coverage": "truffle run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeversiFi/minimal-NEC-treasury.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeversiFi/minimal-NEC-treasury/issues"
+  },
+  "homepage": "https://github.com/DeversiFi/minimal-NEC-treasury#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}
